@@ -9,7 +9,7 @@ public class GitHubUserStatistics {
 
 
     public static void main(String[] args) {
-        String apiUrl = "https://api.github.com/users/";
+         String apiUrl = "https://api.github.com/Yulianna8005/" + USER_NAME;
         try {
             @SuppressWarnings("deprecation")
             URL url = new URL(apiUrl);
